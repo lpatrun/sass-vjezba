@@ -1,0 +1,32 @@
+
+.dropdown
+  display: inline-block
+
+  a:hover
+    color: $factory-blue
+
+  &-content
+    display: none
+    position: absolute
+    background-color: black
+    min-width: 160px
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2)
+    z-index: 1
+
+    a
+      color: white
+      margin: 5px 16px
+      padding: 5px 11px
+      text-decoration: none
+      display: block
+      text-align: left
+      border-bottom: 1px solid #fff
+
+      &:hover
+        color: $factory-blue
+
+      &:last-child
+        border-bottom: none
+
+  &:hover &-content
+    display: block
