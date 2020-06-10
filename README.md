@@ -1,4 +1,4 @@
-# Webpack workshop
+# fektori workšop
 
 Factory app based on webpack 4.
 
